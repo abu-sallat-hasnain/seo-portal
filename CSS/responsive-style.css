@@ -1,70 +1,116 @@
-@media (max-width:1400px){
-         /* 4 Services */
-  .services_wrapper .service_phone{
+
+@media (max-width: 1400px) {
+  .services_wrapper .service_phone {
     max-width: 80%;
-}
+  }
 }
 
-@media (max-width:1230px){
-  /* 4 Services */
-  .services_wrapper .service_phone{
+
+@media (max-width: 1200px) {
+  .services_wrapper .service_phone {
     max-width: 100%;
-}
+  }
+
+  h1 {
+    font-size: 48px;
+  }
 }
 
-@media (max-width:991px){
+
+@media (max-width: 991px) {
+
   section {
-  padding: 20px 0;
+    padding: 40px 0;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .header_wrapper .navbar-collapse {
+    text-align: center;
+    background: #fff;
+    padding-bottom: 15px;
+  }
+
+  .header_wrapper .nav-item .nav-link {
+    margin-top: 12px;
+  }
+
+  .blog_wrapper .newsletter {
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .blog_wrapper .newsletter input {
+    width: 100%;
+  }
+
 }
 
-h1 {
-  font-size: 50px;
-}
 
-h2 {
-  font-size: 30px;
-  line-height: 40px;
-}
+@media (max-width: 767px) {
 
-h3 {
-  font-size: 20px;
-}
+  section {
+    padding: 30px 0;
+  }
 
-  .header-scrolled {
-  height: auto;
-}
-
-.header_wrapper .menu-navbar-nav {
-  text-align: center;
-  background-color: var(--bg-white);
-  padding-bottom: 15px;
-}
-
-.header_wrapper .nav-item .nav-link {
-  margin-top: 15px;
-}
-
-
-/*  blog css  */
- .blog_wrapper .newsletter{
-  width: 100%;
- }
-}
-  @media (max-width: 767px) {
-  
   h1 {
     font-size: 30px;
   }
 
+  h2 {
+    font-size: 24px;
+  }
+
   h3 {
-    font-size: 22px;
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .main-btn {
+    font-size: 13px;
+    padding: 8px 20px;
+  }
+
+  .text-md-start,
+  .text-md-end {
+    text-align: center !important;
+  }
+
+  /* FOOTER */
+  .footer_wrapper ul {
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 575px) {
+
+  h1 {
+    font-size: 26px;
   }
 
   p {
     font-size: 13px;
   }
 
-  .main-btn {
-    font-size: 13px;
-  }
 }
