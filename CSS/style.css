@@ -26,11 +26,11 @@
 
 body {
     font-family: var(--secondary-font);
-    background-image: url('../images/page-background.jpg'); 
+    background-image: url('../page-background.jpg'); 
     background-size: cover;
-    background-position: center 0px;
+    background-position: center 0px;  
     background-repeat: no-repeat;
-    background-attachment: initial;
+    background-attachment: initial;  
     overflow-x: hidden;
 }
 
